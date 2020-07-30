@@ -5,7 +5,13 @@ class Home extends Component {
     state = {  }
     render() { 
         return (
-            <AppNav /> );
+            <div>
+                 <AppNav />
+            
+                <h2> Welcome to expense app</h2>
+            </div>
+           
+            );
     }
 }
  
